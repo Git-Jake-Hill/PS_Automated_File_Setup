@@ -56,6 +56,7 @@ Running the script to update all maks applies the alpha mask to all folders.
 Typically the photoshop files would have 10's of masks to update. This script saves a lot of time and reduces errors in the long run.
 
 ### Live Preview
+Here is a preview of how masks can be automatically updated using my script. (Edits are applied to demonstrate how the mask would be used)
 ![](images/PS_Update_All_Masks_demo.gif)
 
 ---
