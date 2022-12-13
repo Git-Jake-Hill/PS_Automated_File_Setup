@@ -6,20 +6,20 @@
 
 ## OVERVIEW
 
-During a stint working at Scharp over the summer break, I noticed the process to create photoshop files (used to colour grade and manipulate rendered visulisation images) required a lot of repeative manual work and as such was time consuming. Additional to this, there were multiple other ineficancies that added to the overall time to deliver projects or lead to simple user errors. These issues were multiplied by the number of 3D Artiists that work on serveral images per day.
+During a stint working at Scharp over the summer break, I noticed the process to create photoshop files (used to colour grade and manipulate rendered visualisation images) required a lot of repetitive manual work and as such was time consuming. Additional to this, there were multiple other inefficiencies that added to the overall time to deliver projects or lead to simple user errors. These issues were multiplied by the number of 3D Artists that work on several images per day.
 
 ### Common Issues:
 - Very time consuming to create multiple files.
 - Time consuming to subsequently update for each draft change.
 - Requiring a manual update to all adjustment masks when a render image is changed in the 3D model.
-- Having to manualy update adjustment masks one by one.
-- No ablity to upated draft letters for multiple files.
+- Having to manually update adjustment masks one by one.
+- No ability to updated draft letters for multiple files.
 
 ### Solution:
 - Create or update multiple photoshop setups.
 - Automated setups generated from render farm log files.
-- Masks to be a "live link" to the corrispoding render element.
-- Ablity to apply a mask code and update all masks in a few seconds.
+- Masks to be a "live link" to the corresponding render element.
+- Ability to apply a mask code and update all masks in a few seconds.
 - Batch update draft letters.
 
 
@@ -44,12 +44,12 @@ note: Folders to have a unique name eg. "Trees #MM28"
 
 ![](images/jpg/PS_Update_All_Masks_Code.jpg)
 
-Here a code is applied that matches to the corrisponding render elements produced from the 3D model.
+Here a code is applied that matches to the corresponding render elements produced from the 3D model.
 ![](images/jpg/Mask_Code_Example.png)
 
 ![](images/jpg/PS_Update_All_Masks_Render_Elements.jpg)
 
-Running the script to update all maks applies the alpha mask to all folders. 
+Running the script to update all masks, applies the alpha mask to all folders. 
 
 ![](images/jpg/PS_Update_All_Masks_Brick_Alpha.jpg)
 
